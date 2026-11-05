@@ -1,22 +1,18 @@
 <!-- BEGIN codex-downloads-current-release -->
 # AI-Network 下载
 
-当前正式版本：**1.0.9-payment.20261102.1**（2026-11-02）。Windows、macOS Apple Silicon、macOS Intel、Linux 使用同一产品版本号。
+当前正式版本：**1.0.10-payment.20261104.2**。
 
-- 软件启动后自动测试一次节点延时和速度。
-- 默认不勾选「自动测试（每10分钟）」；仍可手动测试或自行开启定时测试。
-- Windows 测试版已通过用户本机验收；各平台完成打包审计，macOS/Linux 尚未新增真机体验验收。
-
-| 平台 | 官网下载 | GitHub 下载 | SHA-256 |
+| 产品与平台 | 官网下载 | GitHub 下载 | SHA-256 |
 | --- | --- | --- | --- |
-| Windows x64 | [官网](https://dl.codextwin.com/downloads/AI-Network-1.0.9-payment.20261102.1-win-x64.exe) | [GitHub](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.9-payment.20261102.1/AI-Network-1.0.9-payment.20261102.1-win-x64.exe) | `784f8cf6bfbb4776794dee53d1dcc9562bbe6d1e9a6d3735a88c233417bb6ff0` |
-| macOS Apple Silicon | [官网](https://dl.codextwin.com/downloads/AI-Network-1.0.9-payment.20261102.1-mac-arm64.dmg) | [GitHub](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.9-payment.20261102.1/AI-Network-1.0.9-payment.20261102.1-mac-arm64.dmg) | `faa46c998f129121763de13480808f0dd771efa87319ec659bb4003fe42bce93` |
-| macOS Intel | [官网](https://dl.codextwin.com/downloads/AI-Network-1.0.9-payment.20261102.1-mac-x64.dmg) | [GitHub](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.9-payment.20261102.1/AI-Network-1.0.9-payment.20261102.1-mac-x64.dmg) | `0256ed7c0b7652f2b0d6ef944aa5e06c6e5a09306fab63f483c77c1a5da8f6e8` |
-| Linux x64 | [官网](https://dl.codextwin.com/downloads/AI-Network-1.0.9-payment.20261102.1-linux-x86_64.AppImage) | [GitHub](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.9-payment.20261102.1/AI-Network-1.0.9-payment.20261102.1-linux-x86_64.AppImage) | `8df887b558859b4a742098289e7c2b95fab133c928c3e7eb60be0805e5a451b4` |
+| AI-Network · win-x64 | [官网下载](https://dl.codextwin.com/downloads/AI-Network-1.0.10-payment.20261104.2-win-x64.exe) | [GitHub 下载](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.10-payment.20261104.2/AI-Network-1.0.10-payment.20261104.2-win-x64.exe) | `416d437419d55370ca64a815e5a6f59751b83cf79bb73224e2675ad5e1e9f56a` |
+| AI-Network · mac-arm64 | [官网下载](https://dl.codextwin.com/downloads/AI-Network-1.0.10-payment.20261104.2-mac-arm64.dmg) | [GitHub 下载](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.10-payment.20261104.2/AI-Network-1.0.10-payment.20261104.2-mac-arm64.dmg) | `6bc9e6f50d9ccc2bc0fa435fa30e7d4d3d8cc8e74eb484e2b58837d50fc25239` |
+| AI-Network · mac-x64 | [官网下载](https://dl.codextwin.com/downloads/AI-Network-1.0.10-payment.20261104.2-mac-x64.dmg) | [GitHub 下载](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.10-payment.20261104.2/AI-Network-1.0.10-payment.20261104.2-mac-x64.dmg) | `ff46383bd67465e972089493baba537b012426230f6876eed66d9cefbd1e8576` |
+| AI-Network · linux-x64 | [官网下载](https://dl.codextwin.com/downloads/AI-Network-1.0.10-payment.20261104.2-linux-x86_64.AppImage) | [GitHub 下载](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.10-payment.20261104.2/AI-Network-1.0.10-payment.20261104.2-linux-x86_64.AppImage) | `15449cbc343884d8f5acf01c6409c311f8fc44af64bcc21634df013e1fba1cd7` |
 
-[官网](https://codextwin.com/network/) · [发布说明](https://github.com/haidongxu2000/ai-network-downloads/releases/tag/v1.0.9-payment.20261102.1) · [SHA256SUMS](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.9-payment.20261102.1/SHA256SUMS.txt)
+[官网](https://codextwin.com/network/) · [发布说明](https://github.com/haidongxu2000/ai-network-downloads/releases/tag/v1.0.10-payment.20261104.2) · [SHA256SUMS](https://github.com/haidongxu2000/ai-network-downloads/releases/download/v1.0.10-payment.20261104.2/SHA256SUMS.txt)
 
-Windows 和 Linux 在用户电脑构建；macOS 两种芯片由 GitHub Actions 构建。应用源码保存在私有仓库，本公开仓库只提供安装包、校验值和说明。
+Windows 和 Linux 在用户电脑构建；macOS 两种芯片由 GitHub Actions 构建。应用源码保存在私有仓库，公开仓库只提供安装包、校验值和脱敏构建审计。构建及自动检查通过不等于全部平台均已完成真机体验或真实 TUN 吞吐验收。
 <!-- END codex-downloads-current-release -->
 
 <details><summary>历史版本说明</summary>
